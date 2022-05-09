@@ -9,7 +9,7 @@ import java.net.*;
 
 /**
  *
- * @author --> Escriu el teu correu electrònic
+ * @author --> jaumegp92@gmail.com
  */
 public class Prjava02 {
 
@@ -18,6 +18,7 @@ public class Prjava02 {
      */
     public static void main(String[] args) {
         System.out.println("versió 0.1 del projecte prjava02"); 	
+        System.out.println("Creació d'una branca del projecte prjavaCognom02");
         try {
             InetAddress adreça = InetAddress.getLocalHost();
             String hostname = adreça.getHostName();
